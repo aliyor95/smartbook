@@ -110,7 +110,7 @@ li {
     list-style-type: none;
 }
 
-hr {
+.hr {
     background: #fff;
     height: 20px;
     width: 2px;
@@ -390,6 +390,22 @@ hr {
     background-repeat: no-repeat;
     height: 100vh;
 
+}
+
+
+.bounce-in-left {
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+}
+
+.bounce-in-right {
+    -webkit-animation-name: bounceInRight;
+    animation-name: bounceInRight;
+} 
+
+.bounce-in-up {
+    -webkit-animation-name: bounceInUp;
+    animation-name: bounceInUp;
 }
 
 .caption__text {
@@ -1959,7 +1975,7 @@ hr {
 
     .header__tel,
     .header__tel-link,
-    hr {
+    .hr {
         display: none;
     }
 
@@ -2112,7 +2128,8 @@ hr {
     .video__content {
         display: none;
     }
-    .video video  {
+
+    .video video {
         display: none;
     }
 
